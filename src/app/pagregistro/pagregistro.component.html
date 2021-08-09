@@ -1,0 +1,83 @@
+<app-headerregistro></app-headerregistro>
+
+<section class="conten-informacion">
+    <div class="container">
+
+        <div class="general row">
+            <div class="solicitud col l8 s12">
+                <h1 class="sol-info">Solicita Informacion!</h1>
+
+                <div class="row">
+                    <form class="formulario col s12" (ngSubmit)="enviar();">
+
+                        <div class="row">
+                            <div class="input-field col s6">
+                                <input id="nombre" type="text" class="validate" name="nombre" #nombre="ngModel"
+                                    [(ngModel)]="regiterMod.Nombre">
+                                <label for="first_name">Nombre</label>
+                            </div>
+
+                            <div class="input-field col s6">
+                                <input id="apellido" type="text" class="validate" name="apellido" #apellido="ngModel"
+                                    [(ngModel)]="regiterMod.Apellido">
+                                <label for="last_name">Apellido</label>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <input id="correo" type="email" class="validate" name="email" #email="ngModel"
+                                    [(ngModel)]="regiterMod.Email">
+                                <label for="email">Email</label>
+                            </div>
+                        </div>
+
+                        <div class="input-field col s12">
+                            <input id="cel" type="tel" class="validate" name="tel" #tel="ngModel"
+                                [(ngModel)]="regiterMod.Contacto">
+                            <label for="icon_telephone">Numero de contacto</label>
+                        </div>
+
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <label for="mascota">Mascota</label>
+                                <input id="mascota" type="text" class="validate" name="mascota" #mascota="ngModel"
+                                    [(ngModel)]="regiterMod.Mascota">
+                            </div>
+                        </div>
+
+
+
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <textarea id="textarea2" class="materialize-textarea" data-length="120" name="textarea2"
+                                    #textarea2="ngModel" [(ngModel)]="regiterMod.Ayuda"></textarea>
+                                <label for="textarea2">¿En qué te podemos ayudar?</label>
+                            </div>
+                        </div>
+
+
+                        <input type="submit" value="Enviar" class="boton-form">
+
+                        <div class="error" id="error"></div>
+
+                    </form>
+                </div>
+
+            </div>
+
+            <div class="contacto col l4 s12">
+                <h1>Contactanos</h1>
+                <p>Te brindaremos apoyo en lo que estes necesitando, si tu mascota se encuantra enferma o si quieres
+                    adoptar aguno de nuestros amigos no dudes es dejarnos tu mensaje, estamos para ayudarte y que tu
+                    ayuden a quien puede ser un apoyo para ti.<br><br></p>
+                <h2><i class="fas fa-mobile-alt"></i> Cel: 301 3248311</h2>
+                <h2><i class="fas fa-phone-alt"></i> Tel: 4675370</h2>
+                <h2><i class="fas fa-envelope"></i> Email: mascotas@gmail.com</h2>
+            </div>
+        </div>
+
+
+
+    </div>
+</section>

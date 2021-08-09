@@ -1,0 +1,55 @@
+
+/* Contenedor 1 */
+.caja{
+    margin-top: 90px;
+    height: 60vh;
+}
+
+.contenido .text h2{
+    color: #85b448;
+    font-size: 40px;
+}
+
+.imagen1{
+    background-image: url(../../assets/educado.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.imagen2{
+    background-image: url(../../assets/Gatoo-baño.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.imagen3{
+    background-image: url(../../assets/Canto.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.imagen4{
+    background-image: url(../../assets/ronroneo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.imagen5{
+    background-image: url(../../assets/vacuna.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.imagen6{
+    background-image: url(../../assets/enfermo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* Fin Contenedor 1 */

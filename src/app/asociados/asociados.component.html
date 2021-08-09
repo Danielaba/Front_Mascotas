@@ -1,0 +1,29 @@
+<app-headerregistro></app-headerregistro>
+<div class="container">
+    <table class="striped light-green centered total">
+        <thead>
+            <tr class="titulo">
+                <th>Nombre</th>
+                <th>Apellido</th>
+                <th>Email</th>
+                <th>Contacto</th>
+                <th>Mascota</th>
+                <th>Comentarios de ayuda</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr *ngFor = "let user of allUser">
+
+                <td>{{user.Nombre}}</td>
+                <td>{{user.Apellido}}</td>
+                <td>{{user.Email}}</td>
+                <td>{{user.Contacto}}</td>
+                <td>{{user.Mascota}}</td>
+                <td>{{user.Ayuda}}</td>
+                
+            </tr>
+     
+        </tbody>
+    </table>
+</div>

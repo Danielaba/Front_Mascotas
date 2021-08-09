@@ -1,0 +1,42 @@
+header .imagen-fondo{
+    background-image: url(../../assets/header_inicio.jpg); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+    width: 100vw;
+    position: relative;
+    background-attachment: fixed;
+}
+
+header .parrafo{
+    height: 90vh;
+    width: 100vw;
+    background: linear-gradient(90deg, rgba(217, 255, 0, 0.37) 0%, rgba(101, 255, 209, 0.589) 40%, rgba(22, 163, 34, 0.603) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: cursive;
+}
+
+/* header .parrafo .centro{
+    width: 35%;
+    height: 20%;
+    padding: 30px;    
+} */
+
+header .parrafo .centro h1{
+    font-size: 40px;
+    text-align: center;
+    color: #ccff89;
+    text-shadow: 0 0 5px #437700;
+    color: white;
+}
+
+header .parrafo .centro p{
+    font-size: 25px;
+    text-align: center;
+    color: #ccff89;
+    text-shadow: 0 0 5px #437700;
+    color: white;
+}

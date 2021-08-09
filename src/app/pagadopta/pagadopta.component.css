@@ -1,0 +1,164 @@
+/* Contenedor principal adopcion*/
+.imagen{
+    height: 350px;
+    /* background-image: url(../../assets/Dog\ walking_Isometric\ 1.svg); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;  
+}
+
+.text h2{
+    font-size: 40px;
+    text-align: center;
+    font-family: cursive;
+    color: #85b448;
+}
+
+/* Fin Contenedor principal adopcion */
+
+/* Contenedor mascota */
+.conten-mascota{
+    height: 190vh;
+    background-image: url(../../assets/huellas.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+    background-attachment: fixed;
+}
+
+.fondo-mas{
+    width: 100%;
+    height: 195vh;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.171) 0%, rgb(255, 255, 255) 100%);
+} 
+
+.conten-mascota h1{
+    text-align: center;
+    font-family: cursive;
+    font-size: 60px;
+    color: #85b448;
+}
+
+.cajas{
+    height: 50vh;
+    margin: 20px 78px;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.Lucas{
+    background-image: url(../../assets/Lucas.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+}
+
+.Akita{
+    background-image: url(../../assets/Akita.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+}
+
+.Milo{
+    background-image: url(../../assets/Miloo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+}
+
+.Nala{
+    background-image: url(../../assets/Nala.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+}
+
+.Max{
+    background-image: url(../../assets/Max.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+}
+
+.Sasha{
+    background-image: url(../../assets/Sasha.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+}
+
+.Coco{
+    background-image: url(../../assets/Coco.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+}
+
+.Pacho{
+    background-image: url(../../assets/Pacho.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+}
+
+.Katia{
+    background-image: url(../../assets/Katia.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+}
+
+.background-hover{
+    height: 50vh;
+    border-radius: 20px;
+    position: absolute;
+    top: -330px; 
+    left: 0;
+    transition: all 300ms;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.background-hover .icono{
+    font-size: 60px;
+    color: #85b448;
+}
+
+.background-hover h2{
+    color: #85b448;
+    margin: 20px 0;
+    text-align: center;
+    font-family: cursive;
+    font-size: 50px;
+}
+
+.background-hover p{
+    width: 80%;
+    margin: 0 10%;
+    color: rgb(71, 71, 71);
+    text-align: center;
+    font-family: cursive;
+}
+
+.background-hover h3{
+    color: #85b448;
+    font-size: 20px;
+    font-family: cursive;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.cajas:hover{
+    box-shadow: 0 0 20px black;
+}
+
+.cajas:hover .background-hover{
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.836);
+
+}

@@ -1,0 +1,18 @@
+.navegador{
+    background-color: #212D29;
+    padding-left: 10px;
+}
+
+.fa-paw{
+    color: #9cb37f;
+    font-size: 30px;
+}
+
+.opciones{
+    color: #85b448;
+}
+
+.opciones:hover{
+    color: #85b448;
+    text-shadow: 0 0 2px white;
+} 
